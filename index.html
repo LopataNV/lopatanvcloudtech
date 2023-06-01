@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <header id="header">
     <meta charset="utf-8" />
-    <title>My Parcel App</title>
-  </head>
-  <body>
+    <title>My Parcel App Lab3</title>
+  </header>
+  <body id="body">
     <div id="app"></div>
-    <script type="module" src="index.js"></script>
+    <div id="main">
+      <style>
+        .main{
+        padding: 50px;
+        background: #cccccc;
+        position: fixed; top: 50%; left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        }
+      </style>
+
+
+      <script type="module" src="/src/containers/AuthForm.js"></script>
+    </div>
+    <script type="module" src="./server/Index.js"></script>
+    <script type="module" src="./Index.js"></script>   
   </body>
-</html
+  <footer id="footer">   
+  </footer>
+</html>
